@@ -89,18 +89,6 @@ pip install -r requirements_mmgp.txt
 pip install torch torchvision diffusers transformers accelerate peft safetensors Pillow fastapi uvicorn mmgp psutil xformers
 ```
 
-### System Requirements
-
-**Minimum:**
-- GPU: RTX 3060 (12GB VRAM) or equivalent
-- RAM: 16GB system RAM
-- Storage: 20GB free space
-
-**Recommended (MMGP Optimized):**
-- GPU: RTX 4090 (24GB VRAM)
-- RAM: 32-48GB system RAM
-- Storage: 50GB free space
-
 ## 🚀 Quick Start
 
 ### 1. Run the MMGP Optimized Version (Recommended)
@@ -120,27 +108,6 @@ Open your browser to: `http://localhost:8000`
 3. Enable "Seamless Generation" for tileable patterns
 4. Click "Generate Optimized Pattern"
 
-## 📁 Project Structure
-
-```
-Pattern-Diffusion/
-├── mmgp_optimized_carpet_generator.py    # Main optimized version
-├── local_fastapi_carpet_generator.py     # Local version
-├── modal_fastapi_finetuned_carpet_generator.py  # Modal cloud version
-├── requirements_mmgp.txt                 # Dependencies
-├── models/                               # LoRA fine-tuned models
-│   ├── adapter_config.json
-│   └── adapter_model.safetensors
-├── generated_images/                     # Example outputs
-│   ├── 1.png
-│   ├── 1_tiled.png
-│   ├── 2.png
-│   ├── 2_tiled.png
-│   ├── 3.png
-│   └── 3_tiled.png
-├── generated-carpets-*/                  # Batch generation outputs
-└── batch_generation/                     # Batch processing scripts
-```
 
 ## ⚙️ Configuration Options
 
@@ -222,60 +189,7 @@ python batch_generation/modal_carpet_prompt_generator_sd35_1.py
 | 1280x1280 | 28 | ~45-60 | ~22GB | Excellent |
 | 1536x1536 | 28 | ~60-80 | ~23GB | Maximum |
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test with the provided examples
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🙏 Acknowledgments
 
-- **Stability AI** for Stable Diffusion 3.5 Large
 - **MMGP** for memory optimization techniques
-- **Pattern Diffusion** method for seamless generation
-- **Hugging Face** for the Diffusers library
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Out of Memory Errors:**
-- Reduce image dimensions
-- Lower batch size
-- Enable MMGP optimization
-- Close other GPU applications
-
-**Poor Seamless Quality:**
-- Ensure "Enable Seamless Generation" is checked
-- Use recommended prompt styles
-- Avoid 3D/lighting terms in prompts
-- Try different seeds
-
-**Slow Generation:**
-- Use MMGP optimized version
-- Enable RTX 4090 optimizations
-- Reduce number of steps
-- Use lower precision (fp16)
-
-### Getting Help
-
-1. Check the Issues section on GitHub
-2. Review the troubleshooting section
-3. Ensure your system meets requirements
-4. Try the example prompts first
-
----
-
-<div align="center">
-
-**🎨 Create Beautiful, Seamless Carpet Patterns with AI 🎨**
-
-Made with ❤️ by the Pattern Diffusion Team
-
-</div>
+- **Pattern Diffusion** method for seamless generation: https://huggingface.co/Arrexel/pattern-diffusion
