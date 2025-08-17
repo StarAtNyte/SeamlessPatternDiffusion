@@ -1,0 +1,29 @@
+# MMGP Optimized Carpet Generator Requirements
+
+# Core dependencies
+torch>=2.1.0
+torchvision>=0.16.0
+diffusers>=0.30.0
+transformers
+accelerate
+peft
+safetensors
+Pillow
+fastapi
+uvicorn
+python-multipart
+numpy<2.0
+tqdm
+sentencepiece
+
+# MMGP Memory optimization
+mmgp
+
+# System monitoring
+psutil
+
+# Additional optimizations for RTX 4090
+xformers  # Memory efficient attention
+
+# Optional but recommended
+bitsandbytes  # For 8-bit quantization if needed
