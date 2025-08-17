@@ -61,9 +61,7 @@ This method ensures that:
 
 | Original Pattern | Tiled 2x2 Preview |
 |:----------------:|:-----------------:|
-| ![Original Pattern](<img width="896" height="1200" alt="1" src="https://github.com/user-attachments/assets/adcfc5e6-437b-4ae5-bab4-db4a72932100" />
-) | ➡️ ![Tiled Pattern](<img width="3584" height="4800" alt="1_tiled" src="https://github.com/user-attachments/assets/5f2397d6-8cac-456a-b228-3f74e43d42e4" />
-) |
+| ![Original Pattern](generated_images/1.png) | ➡️ ![Tiled Pattern](generated_images/1_tiled.png) |
 
 *Notice how the pattern tiles perfectly with no visible seams at the edges*
 
