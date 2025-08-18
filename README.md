@@ -119,15 +119,6 @@ The system automatically selects the optimal MMGP profile based on your hardware
 - **LowRAM_HighVRAM** (32GB+ RAM, 24GB+ VRAM) - Balanced for RTX 4090
 - **VeryLowRAM_LowVRAM** (24GB+ RAM, 10GB+ VRAM) - Safest
 
-### RTX 4090 Optimizations
-
-Automatic optimizations applied:
-- ✅ TF32 enabled for ~1.5x speed boost
-- ✅ Reduced precision operations
-- ✅ CuDNN benchmark mode
-- ✅ 95% memory fraction allocation
-- ✅ Smart memory cleanup
-
 ## 🎨 Generation Parameters
 
 ### Recommended Settings
@@ -178,16 +169,6 @@ python batch_generation/modal_carpet_prompt_generator_sd35_1.py
 - `GET /health` - System status
 - `GET /model-info` - Model information
 - `GET /memory-stats` - Memory usage
-
-## 📊 Performance Benchmarks
-
-### RTX 4090 Performance (MMGP Optimized)
-
-| Resolution | Steps | Time (s) | VRAM Usage | Quality |
-|------------|-------|----------|------------|---------|
-| 1024x1024 | 28 | ~30-45 | ~18GB | Excellent |
-| 1280x1280 | 28 | ~45-60 | ~22GB | Excellent |
-| 1536x1536 | 28 | ~60-80 | ~23GB | Maximum |
 
 ## 🙏 Acknowledgments
 
