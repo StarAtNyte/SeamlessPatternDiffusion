@@ -1,6 +1,6 @@
-# Pattern Diffusion - Seamless Carpet Pattern Generator
+# Pattern Diffusion - Seamless  Pattern Generator
 
-An advanced AI-powered carpet pattern generator using Stable Diffusion 3.5 Large with specialized seamless pattern generation techniques. This project implements the "Pattern Diffusion" method for creating tileable, seamless carpet designs with various optimization options.
+An advanced AI-powered pattern generator using Stable Diffusion 3.5 Large with specialized seamless pattern generation techniques. This project implements the "Pattern Diffusion" method for creating tileable, seamless carpet designs with various optimization options.
 
 ## 🚀 Features
 
