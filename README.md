@@ -59,17 +59,17 @@ This method ensures that:
 
 <div align="center">
 
-| Original Pattern | Tiled 2x2 Preview |
+| Original Pattern | Tiled 4x4 Preview |
 |:----------------:|:-----------------:|
 | ![Original Pattern](./generated_images/1.png) | ➡️ ![Tiled Pattern](./generated_images/1_tiled.png) |
 
 *Notice how the pattern tiles perfectly with no visible seams at the edges*
 
-| Pattern 2 | Tiled 2x2 |
+| Pattern 2 | Tiled 4x4 |
 |:---------:|:---------:|
 | ![Pattern 2](./generated_images/2.png) | ➡️ ![Tiled 2](./generated_images/2_tiled.png) |
 
-| Pattern 3 | Tiled 2x2 |
+| Pattern 3 | Tiled 4x4 |
 |:---------:|:---------:|
 | ![Pattern 3](./generated_images/3.png) | ➡️ ![Tiled 3](./generated_images/3_tiled.png) |
 
