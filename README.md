@@ -162,13 +162,6 @@ Use the scripts in `batch_generation/` for large-scale pattern creation:
 python batch_generation/modal_carpet_prompt_generator_sd35_1.py
 ```
 
-### API Endpoints
-
-- `GET /` - Web interface
-- `POST /generate` - Generate pattern
-- `GET /health` - System status
-- `GET /model-info` - Model information
-- `GET /memory-stats` - Memory usage
 
 ## 🙏 Acknowledgments
 
